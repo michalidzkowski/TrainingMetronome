@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">TrainingMetronome</string>
+    <string name="app_name">Training Metronome</string>
+    <string name="series_number">Series number</string>
+    <string name="repetitions_number">Repetitions number</string>
+    <string name="total_duration">Total duration</string>
+    <string name="repetitions">Repetitions</string>
+    <string name="intervals">Intervals</string>
+    <string name="after_pause">After pause</string>
+    <string name="training_name">Training name</string>
+    <string name="select_color">Select color:</string>
 </resources>

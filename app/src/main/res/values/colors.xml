@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#EEFF41</color>
+    <color name="materialPink500">#e91e63</color>
+    <color name="materialDeepOrange500">#FF5722</color>
+    <color name="materialIndigo500">#3F51B5</color>
+    <color name="materialPurple500">#9C27B0</color>
+    <color name="materialRed500">#F44336</color>
+
+    <array name="colors">
+        <item>@color/materialDeepOrange500</item>
+        <item>@color/materialRed500</item>
+        <item>@color/materialPink500</item>
+        <item>@color/materialPurple500</item>
+        <item>@color/materialIndigo500</item>
+    </array>
 </resources>
