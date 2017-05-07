@@ -51,8 +51,8 @@ class AddTrainingFragment : Fragment(), View.OnClickListener, ColorPickerSwatch
         editTextTrainingName.clearFocus()
         when (view.id) {
             R.id.floatingActionButton -> {
-//                val seriesDialogFragment = AddSeriesDialogFragment(addTrainingViewModel)
-//                seriesDialogFragment.show(fragmentManager, "TAG")
+                val seriesDialogFragment = AddSeriesDialogFragment(addTrainingViewModel)
+                seriesDialogFragment.show(fragmentManager, "TAG")
             }
             R.id.colorPickerButton -> {
                 val colorPickerDialog = ColorPickerDialog()
