@@ -7,12 +7,12 @@ import android.support.design.widget.Snackbar
 import android.support.v4.app.Fragment
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.animation.AnimationUtils
 import com.michal.idzkowski.trainingmetronome.R
+import com.michal.idzkowski.trainingmetronome.extensions.replaceFragment
 import com.michal.idzkowski.trainingmetronome.extensions.setDisplayHomeAsUpEnabled
 import com.michal.idzkowski.trainingmetronome.extensions.setSupportActionBarTitle
 import com.michal.idzkowski.trainingmetronome.interfaces.OnTrainingChangeListener
@@ -71,7 +71,7 @@ class TrainingListFragment : Fragment(), View.OnClickListener, OnTrainingChangeL
     override fun onClick(view: View) {
         when (view.id) {
             R.id.floatingActionButton -> {
-                //TODO replace fragment with AddTrainingFragment
+                activity.replaceFragment(AddTrainingFragment(), AddTrainingFragment.TAG)
             }
         }
     }
