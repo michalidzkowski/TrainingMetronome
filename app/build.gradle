@@ -34,6 +34,13 @@ dependencies {
     compile "com.android.support:support-v4:$androidSupportVersion"
     compile "com.android.support.constraint:constraint-layout:$constraintLayoutVersion"
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+    compile "io.reactivex.rxjava2:rxandroid:$rxAndroidVersion"
+    compile "io.reactivex.rxjava2:rxkotlin:$rxKotlinVersion"
+    compile "com.jakewharton.rxbinding2:rxbinding-kotlin:$rxBindingKotlinVersion"
+    compile "com.jakewharton.rxbinding2:rxbinding-appcompat-v7-kotlin:$rxBindingKotlinVersion"
+    compile "com.jakewharton.rxbinding2:rxbinding-design-kotlin:$rxBindingKotlinVersion"
+    compile "com.jakewharton.rxbinding2:rxbinding-recyclerview-v7-kotlin:$rxBindingKotlinVersion"
+    compile "com.jakewharton.rxbinding2:rxbinding-support-v4-kotlin:$rxBindingKotlinVersion"
     compile project(path: ':colorpicker')
 }
 repositories {
